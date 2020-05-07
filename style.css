@@ -21,6 +21,8 @@ html{
     padding-top: 50px;
 }
 .header_logo {
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -80,6 +82,7 @@ html{
 .lang {
     display: flex;
     margin-left: 150px;
+    align-items: center;
 }
 img { 
     width: 30px;
@@ -123,8 +126,8 @@ img {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;  
-   
 }
+
 .btn:hover {
     background-color:  #d52047cc;
     color: #fff;
