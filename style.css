@@ -83,6 +83,7 @@ html{
     display: flex;
     margin-left: 150px;
     align-items: center;
+
 }
 img { 
     width: 30px;
@@ -90,10 +91,13 @@ img {
     
 }
 #lang {
-    background: none;
+    background: transparent;
     border: none;
-    color: honeydew;
+    color: #fff;
     font-size: 20px;
+}
+option {
+    color: black;
 }
 .login{
     border-radius: 10px;
